@@ -14,9 +14,10 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
 
 ## Theory
- 
 
-## Logic Diagram
+A combinational circuit is a circuit in which the output depends on the present combination of inputs. Combinational circuits are made up of logic gates. The output of each logic gate is determined by its logic function. Combinational circuits can be made using various logic gates, such as AND gates, OR gates, and NOT gates.
+
+
 ## Procedure
 1.*Create a New Project:
 Open Quartus and create a new project by selecting "File" > "New Project Wizard." Follow the wizard's instructions to set up your project, including specifying the project name, location, and target device (FPGA).
@@ -30,6 +31,8 @@ Open Quartus and create a new project by selecting "File" > "New Project Wizard.
 5.*Analyze and Fix Errors: If there are any errors or warnings during the compilation process, Quartus will display them in the Messages window. Review and fix any issues in your code if necessary. View the RTL diagram.
 
 6.*Verification: Click on "File" > "New" > "Verification/Debugging Files" > "University Program VWF". Once Waveform is created Right Click on the Input/Output Panel > " Insert Node or Bus" > Click on Node Finder > Click On "List" > Select All. Give the Input Combinations according to the Truth Table amd then simulate the Output Waveform
+
+
 ## Program:
 /*
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
